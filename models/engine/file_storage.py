@@ -14,12 +14,12 @@ from models.review import Review
 
 class FileStorage:
     """this class will store user info into a json file"""
-     __file_path = "file.json"
-     __objects = {}
+    __file_path = "file.json"
+    __objects = {}
 
-     def __init__(self):
-         """intanciation of the class
-         """
+    def __init__(self):
+        """intanciation of the class
+        """
 
     def all(self):
         """returns a dictionary"""
