@@ -29,11 +29,15 @@ class TestConsole(unitteat.TestCase):
 
     def test_console_docstring(self):
         """Test docstring """
-        self.assertIsNot(console.__doc__,None,'console.py needs a docstring')
-        self.assertTrue(len(console.__doc___) >= 1, "console.py needs a docstring")
+        self.assertIsNot(console.__doc__,None,
+                'console.py needs a docstring')
+        self.assertTrue(len(console.__doc___) >= 1,
+                "console.py needs a docstring")
 
     def test_HBNBCommand_docstring(self):
         """Test command interpreter docstring """
 
-        self.assertIsNot(HBNBCommand.__doc__, None, 'console.py needs a docstring')
-        self.assertTrue(len(HBNBCommand.__doc__) >= 1, 'console.py needs a docstring')
+        self.assertIsNot(HBNBCommand.__doc__, None,
+                'console.py needs a docstring')
+        self.assertTrue(len(HBNBCommand.__doc__) >= 1,
+                'console.py needs a docstring')
