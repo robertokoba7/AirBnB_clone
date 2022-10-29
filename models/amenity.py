@@ -3,7 +3,7 @@
 from models.base_model import BaseModel
 
 
-class Amenity(BaseModel)
+class Amenity(BaseModel):
     """this class will name the amenity given"""
     name = ""
 
